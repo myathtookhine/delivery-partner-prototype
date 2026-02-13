@@ -1,0 +1,127 @@
+{
+  "hash": "92d346fa",
+  "configHash": "9d207333",
+  "lockfileHash": "becfe613",
+  "browserHash": "08c093a1",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0b258875",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d1a1e261",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0c9b793d",
+      "needsInterop": false
+    },
+    "react-leaflet": {
+      "src": "../../node_modules/react-leaflet/lib/index.js",
+      "file": "react-leaflet.js",
+      "fileHash": "75f8266e",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "54d6f3e2",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "39aa9ddb",
+      "needsInterop": true
+    },
+    "react-qr-scanner": {
+      "src": "../../node_modules/react-qr-scanner/dist/react-qr-scanner.esm.js",
+      "file": "react-qr-scanner.js",
+      "fileHash": "f3af1aab",
+      "needsInterop": false
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "3eefa18a",
+      "needsInterop": false
+    },
+    "leaflet-routing-machine": {
+      "src": "../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js",
+      "file": "leaflet-routing-machine.js",
+      "fileHash": "cabbc5ed",
+      "needsInterop": true
+    },
+    "react-big-calendar": {
+      "src": "../../node_modules/react-big-calendar/dist/react-big-calendar.esm.js",
+      "file": "react-big-calendar.js",
+      "fileHash": "684a492f",
+      "needsInterop": false
+    },
+    "date-fns/format": {
+      "src": "../../node_modules/date-fns/format.js",
+      "file": "date-fns_format.js",
+      "fileHash": "29b636a7",
+      "needsInterop": false
+    },
+    "date-fns/parse": {
+      "src": "../../node_modules/date-fns/parse.js",
+      "file": "date-fns_parse.js",
+      "fileHash": "e0918705",
+      "needsInterop": false
+    },
+    "date-fns/startOfWeek": {
+      "src": "../../node_modules/date-fns/startOfWeek.js",
+      "file": "date-fns_startOfWeek.js",
+      "fileHash": "6d139d88",
+      "needsInterop": false
+    },
+    "date-fns/getDay": {
+      "src": "../../node_modules/date-fns/getDay.js",
+      "file": "date-fns_getDay.js",
+      "fileHash": "91e86f74",
+      "needsInterop": false
+    },
+    "date-fns/locale/en-US": {
+      "src": "../../node_modules/date-fns/locale/en-US.js",
+      "file": "date-fns_locale_en-US.js",
+      "fileHash": "b9d226c7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-7PY6TXDW": {
+      "file": "chunk-7PY6TXDW.js"
+    },
+    "chunk-YJAIRCZG": {
+      "file": "chunk-YJAIRCZG.js"
+    },
+    "chunk-SD3LJISK": {
+      "file": "chunk-SD3LJISK.js"
+    },
+    "chunk-DMYRXTEI": {
+      "file": "chunk-DMYRXTEI.js"
+    },
+    "chunk-TLYC62QM": {
+      "file": "chunk-TLYC62QM.js"
+    },
+    "chunk-JCT2QDAK": {
+      "file": "chunk-JCT2QDAK.js"
+    },
+    "chunk-X5CD67R6": {
+      "file": "chunk-X5CD67R6.js"
+    },
+    "chunk-642SEM5W": {
+      "file": "chunk-642SEM5W.js"
+    },
+    "chunk-2TUXWMP5": {
+      "file": "chunk-2TUXWMP5.js"
+    }
+  }
+}

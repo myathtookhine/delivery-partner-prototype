@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #eef2ff;
+  --color-background: #e0e7ff;
+  --color-background-indigo: #6366f1;
+  --color-hoverColor : #4f46e5;
+  --color-fromColor : #4338ca;
+  --color-from-indigo: #3730a3;
+  --color-bg-gray: #f9fafb;
+  --color-border: #f3f4f6;
+  --color-border-gray : #e5e7eb;
+  --color-text-gray: #d1d5db;
+  --color-secondaryText: #9ca3af;
+  --color-secondaryDarkText: #6b7280;
+  --color--secondaryStrongText: #4b5563;
+  --color-secondaryUltraStrongText: #374151;
+  --color-fromGray : #1f2937;
+  --color-toGray: #111827
+}
+
+
+:root {
+  font-family: 'Google Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+/* Minimal scrollbar for desktop */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 2px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* QR Scanner corners */
+.qr-corners {
+  position: relative;
+}
+
+.qr-corners::before,
+.qr-corners::after,
+.qr-corners .corner-bl::before,
+.qr-corners .corner-br::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: #4f46e5;
+  border-style: solid;
+  border-width: 0;
+}
+
+.qr-corners::before {
+  top: 0;
+  left: 0;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-top-left-radius: 8px;
+}
+
+.qr-corners::after {
+  top: 0;
+  right: 0;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-top-right-radius: 8px;
+}
+
+.qr-corners .corner-bl::before {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-bottom-left-radius: 8px;
+}
+
+.qr-corners .corner-br::before {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Scanning line animation */
+@keyframes scanLine {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: calc(100% - 2px);
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.scan-line {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #4f46e5, transparent);
+  animation: scanLine 2.5s ease-in-out infinite;
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.5);
+}
+/* Ensure Leaflet maps don't overlap modals/dialogs */
+.leaflet-container {
+  z-index: 0 !important;
+}
